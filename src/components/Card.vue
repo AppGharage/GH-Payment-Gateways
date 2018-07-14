@@ -20,7 +20,7 @@
                     <div class="card-text margin-top-30">
                         <div class="row">
                             <div class="col-md-7 col-sm-7 charges-label">
-                                <span>Processing Charges : </span>
+                                <span>Processing Fee : </span>
                             </div>
 
                             <div class="col-md-5 col-sm-5">

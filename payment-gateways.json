@@ -5,12 +5,12 @@
         "logo_url": "https://hubtel.com/wp-content/themes/hubtel/html/assets/images/hubtel.png",
         "services":[
             "Accept Mobile Money",
-            "Accept Ghana issued cards",
-            "USSD API",
-            "SMS API"
+            "Accept Local Cards",
+            "USSD APIs",
+            "SMS APIs"
         ],
-        "local_charge" : "3%",
-        "international_charge" :"3%",
+        "local_charge" : "1.95%",
+        "international_charge" :"0%",
         "website_url": "https://hubtel.com/",
         "theme_color": "#009d95"
     },  
@@ -20,9 +20,9 @@
         "logo_url": "http://developer.slydepay.com.gh/assets/images/corporate/slydepay-logo-white.svg",
         "services":[
             "Accept Mobile Money",
-            "Accept Ghana issued cards",
-            "USSD API",
-            "SMS API"
+            "Accept Local Cards",
+            "Accept International Cards",
+            "Invoice Creation and Sending"
         ],
         "local_charge" : "3%",
         "international_charge" :"3%",
@@ -35,12 +35,12 @@
         "logo_url": "https://mazzuma.com/img/mazzuma.png",
         "services":[
             "Accept Mobile Money",
-            "Accept Ghana issued cards",
-            "USSD API",
-            "SMS API"
+            "Accept Local Cards",
+            "Wordpress library",
+            "Hosted Checkout"
         ],
         "local_charge" : "3%",
-        "international_charge" :"3%",
+        "international_charge" :"0%",
         "website_url": "https://developer.teamcyst.com/",
         "theme_color": "#8600B2"
     },
@@ -50,14 +50,44 @@
         "logo_url": "https://paystack.com/assets/website/images/logo.svg",
         "services":[
             "Accept Mobile Money",
-            "Accept Ghana issued cards",
-            "USSD API",
-            "SMS API"
+            "Accept Local Cards",
+            "Hosted Checkout",
+            "Libraries & Plugins"
         ],
-        "local_charge" : "3%",
-        "international_charge" :"3%",
+        "local_charge" : "1.9%",
+        "international_charge" :"3.9%",
         "website_url": "https://paystack.com/",
         "theme_color": "#011b33"
+    },
+    {
+        "id": "6",
+        "name": "FloPay",
+        "logo_url": "https://flopay.io/assets/img/icons/logo.png",
+        "services":[
+            "Accept Mobile Money",
+            "Accept Local Cards",
+            "Accept International Cards",
+            "USSD Payments"
+        ],
+        "local_charge" : "3%",
+        "international_charge" :"0%",
+        "website_url": "https://flopay.io/",
+        "theme_color": "#5589D8"
+    },
+    {
+        "id": "7",
+        "name": "interPay",
+        "logo_url": "https://interpayafrica.com/Content/images/logo-w.png",
+        "services":[
+            "Accept Mobile Money",
+            "Accept Local Cards",
+            "Accept International Cards",
+            "Accept Bank Payments"
+        ],
+        "local_charge" : "2.0 -2.5%",
+        "international_charge" :"2.0 -2.5%",
+        "website_url": "https://flopay.io/",
+        "theme_color": "#5589D8"
     }
     
 ]
