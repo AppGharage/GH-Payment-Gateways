@@ -6,8 +6,8 @@
         "services":[
             "Accept Mobile Money",
             "Accept Local Cards",
-            "USSD APIs",
-            "SMS APIs"
+            "Hosted Checkout",
+            "USSD Payments"
         ],
         "local_charge" : "1.95%",
         "international_charge" :"0%",
