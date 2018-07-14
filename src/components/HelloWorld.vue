@@ -14,7 +14,7 @@
             :intCharge="paymentGateway.international_charge"
             :services="paymentGateway.services"
             :companyUrl="paymentGateway.website_url"
-            themeColor="blue"/>
+            :themeColor="paymentGateway.theme_color"/>
       </div>
     </div>
 

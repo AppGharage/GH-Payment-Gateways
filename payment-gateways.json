@@ -12,7 +12,7 @@
         "local_charge" : "3%",
         "international_charge" :"3%",
         "website_url": "https://hubtel.com/",
-        "theme_color": "#147BED"
+        "theme_color": "#009d95"
     },  
     {
         "id": "2",
@@ -27,7 +27,7 @@
         "local_charge" : "3%",
         "international_charge" :"3%",
         "website_url": "https://www.slydepay.com.gh/",
-        "theme_color": "#147BED"
+        "theme_color": "#2e3950"
     },
     {
         "id": "3",
@@ -42,7 +42,7 @@
         "local_charge" : "3%",
         "international_charge" :"3%",
         "website_url": "https://developer.teamcyst.com/",
-        "theme_color": "#147BED"
+        "theme_color": "#8600B2"
     },
     {
         "id": "4",
@@ -57,7 +57,7 @@
         "local_charge" : "3%",
         "international_charge" :"3%",
         "website_url": "https://paystack.com/",
-        "theme_color": "#147BED"
+        "theme_color": "#011b33"
     }
     
 ]
