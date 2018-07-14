@@ -8,7 +8,13 @@
       <div class="row">
           <Card v-for="paymentGateway of paymentGatewaysLists" 
             :key="paymentGateway.id" 
-            :companyName="paymentGateway.name" />
+            :companyName="paymentGateway.name"
+            :logoUrl="paymentGateway.logo_url"
+            :localCharge="paymentGateway.local_charge" 
+            :intCharge="paymentGateway.international_charge"
+            :services="paymentGateway.services"
+            :companyUrl="paymentGateway.website_url"
+            themeColor="blue"/>
       </div>
     </div>
 

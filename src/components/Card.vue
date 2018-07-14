@@ -3,22 +3,20 @@
     <div class="col-md-6 col-lg-4">
 
         <div class="card">
-            <div class="main-bg-area">
+            <div class="main-bg-area" :style="{ backgroundColor: themeColor }">
                 <center>
                     <div class="card-logo">
-                         <img class="card-img" src="https://hubtel.com/wp-content/themes/hubtel/html/assets/images/hubtel.png" alt="Card image cap"> 
+                         <img class="card-img" :src="logoUrl" alt="Logo"> 
                     </div>
                 </center>
 
                 <div class="card-body">
                     <h5 class="card-title">Services <hr></h5>
 
-                    <div class="card-text">
-                        <p>Accept Mobile Money</p>
-                        <p>Accept Ghana issued cards</p>
-                        <p>USSD API</p>
-                        <p>SMS API</p>
+                    <div class="card-text" v-for="service of services" :key="service">
+                        <p>{{ service }}</p>
                     </div>
+
                     <div class="card-text margin-top-30">
                         <div class="row">
                             <div class="col-md-7 col-sm-7 charges-label">
@@ -29,13 +27,13 @@
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6 divider">
                                         <div class="row">
-                                            <div class="col-md-12 charges">1.95%</div>
+                                            <div class="col-md-12 charges">{{ localCharge }}</div>
                                             <div class="col-md-12 charges">LOC</div>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 charges">
                                         <div class="row">
-                                            <div class="col-md-12 charges">0.00%</div>
+                                            <div class="col-md-12 charges">{{ intCharge }}</div>
                                             <div class="col-md-12 charges">INTL</div>
                                         </div>
                                     </div>
@@ -55,7 +53,7 @@
                     </div>
                     <div class="col">
                         <span class="float-right">
-                            <a href="#" class="btn btn-primary">read more</a>
+                            <a :href="companyUrl" class="btn btn-primary">Learn More</a>
                         </span>
                     </div>
                 </div>
@@ -69,21 +67,27 @@
 <script>
 
 export default {
-  name: 'Card',
-  props: ['companyName']
+    name: 'Card',
+    props: [
+        'companyName',
+        'logoUrl',
+        'localCharge',
+        'intCharge',
+        'services',
+        'companyUrl',
+        'themeColor'
+    ]
 }
 </script>
 <style scoped>
-  .main-bg-area{
-    background-color: #147BED;
-  }
-
   .charges-label{
     font-size: 12px;
   }
 
   .card-img{
-     padding: 5px;
+    padding: 5px;
+    height: 50px;
+    width: 140px;
   }
 
   .charges{
