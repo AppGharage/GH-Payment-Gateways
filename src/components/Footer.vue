@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'Header'
+  name: 'Footer'
 }
 </script>
 <style scoped>

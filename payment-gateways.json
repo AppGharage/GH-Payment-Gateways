@@ -1,20 +1,59 @@
 [
     {
         "id": "1",
-        "name": "Hubtel"
+        "name": "Hubtel",
+        "logo_url": "https://hubtel.com/wp-content/themes/hubtel/html/assets/images/hubtel.png",
+        "services":[
+            "Accept Mobile Money",
+            "Accept Ghana issued cards",
+            "USSD API",
+            "SMS API"
+        ],
+        "local_charge" : "3%",
+        "international_charge" :"3%",
+        "website_url": "https://hubtel.com/"
     },  
     {
         "id": "2",
         "name": "Slydepay",
-        "phone": "0552534233"
+        "logo_url": "http://developer.slydepay.com.gh/assets/images/corporate/slydepay-logo-white.svg",
+        "services":[
+            "Accept Mobile Money",
+            "Accept Ghana issued cards",
+            "USSD API",
+            "SMS API"
+        ],
+        "local_charge" : "3%",
+        "international_charge" :"3%",
+        "website_url": "https://www.slydepay.com.gh/"
     },
     {
         "id": "3",
-        "name": "Mazzuma"
+        "name": "Mazzuma",
+        "logo_url": "https://mazzuma.com/img/mazzuma.png",
+        "services":[
+            "Accept Mobile Money",
+            "Accept Ghana issued cards",
+            "USSD API",
+            "SMS API"
+        ],
+        "local_charge" : "3%",
+        "international_charge" :"3%",
+        "website_url": "https://developer.teamcyst.com/"
     },
     {
         "id": "4",
-        "name": "Paystack"
+        "name": "Paystack",
+        "logo_url": "https://paystack.com/assets/website/images/logo.svg",
+        "services":[
+            "Accept Mobile Money",
+            "Accept Ghana issued cards",
+            "USSD API",
+            "SMS API"
+        ],
+        "local_charge" : "3%",
+        "international_charge" :"3%",
+        "website_url": "https://paystack.com/"
     }
     
 ]

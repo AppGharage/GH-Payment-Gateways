@@ -6,7 +6,9 @@
     
     <div class="container">
       <div class="row">
-        <Card></Card>
+          <Card v-for="paymentGateway of paymentGatewaysLists" 
+            :key="paymentGateway.id" 
+            :companyName="paymentGateway.name" />
       </div>
     </div>
 
@@ -17,9 +19,11 @@
 </template>
 
 <script>
+import axios from 'axios'
 import Header from './Header'
 import Footer from './Footer'
 import Card from './Card'
+
 
 export default {
   name: 'app',
@@ -30,8 +34,12 @@ export default {
   },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      paymentGatewaysLists: []
     }
+  },
+  mounted() {
+    axios.get('https://raw.githubusercontent.com/AppGharage/GH-Payment-Gateways/master/payment-gateways.json')
+    .then(response => {this.paymentGatewaysLists = response.data})
   }
 }
 </script>

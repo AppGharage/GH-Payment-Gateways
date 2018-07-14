@@ -6,12 +6,12 @@
             <div class="main-bg-area">
                 <center>
                     <div class="card-logo">
-                        <!-- <img class="card-img-top" src="elyse.png" alt="Card image cap"> -->
+                         <img class="card-img" src="https://hubtel.com/wp-content/themes/hubtel/html/assets/images/hubtel.png" alt="Card image cap"> 
                     </div>
                 </center>
 
                 <div class="card-body">
-                    <h5 class="card-title">Features <hr></h5>
+                    <h5 class="card-title">Services <hr></h5>
 
                     <div class="card-text">
                         <p>Accept Mobile Money</p>
@@ -50,7 +50,7 @@
                 <div class="row">
                     <div class="col">
                         <span class="align-middle h3">
-                        Hubtel
+                        {{companyName}}
                         </span>
                     </div>
                     <div class="col">
@@ -67,27 +67,23 @@
 </template>
 
 <script>
-import axios from 'axios';
 
 export default {
   name: 'Card',
-  data () {
-    return {
-      paymentGatewaysList: []
-    }
-  },
-  mounted() {
-    axios.get('https://github.com/AppGharage/GH-Payment-Gateways/blob/master/payment-gateways.json')
-    .then(response => {this.paymentGatewaysList = response.data.results})
-  }
+  props: ['companyName']
 }
 </script>
 <style scoped>
   .main-bg-area{
     background-color: #147BED;
   }
+
   .charges-label{
     font-size: 12px;
+  }
+
+  .card-img{
+     padding: 5px;
   }
 
   .charges{
@@ -105,7 +101,6 @@ export default {
     height: 50px;
     width: 150px;
     border-radius: 5px;
-    background-image: url(https://hubtel.com/wp-content/themes/hubtel/html/assets/images/hubtel.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 120px;
