@@ -53,7 +53,7 @@
                     </div>
                     <div class="col">
                         <span class="float-right">
-                            <a :href="companyUrl" class="btn btn-primary">Learn More</a>
+                            <a :href="companyUrl" class="btn" :style="{ backgroundColor: themeColor }">Learn More</a>
                         </span>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ export default {
   .card-img{
     padding: 5px;
     height: 50px;
-    width: 140px;
+    width: 150px;
   }
 
   .charges{
@@ -146,6 +146,8 @@ export default {
 
   .card-footer a{
     font-size: 11px;
+    font-weight: bold;
+    color: #ffffff;
   }
 
   .divider{

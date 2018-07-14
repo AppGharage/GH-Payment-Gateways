@@ -3,9 +3,11 @@
         <div class="footer">
             <div class="row h-100">
                 <div class="col-sm-12 my-auto">
-                    <h3 class="align-middle m">Submit Payment Gateway</h3>
+                    <h4 class="align-middle m">Do you know any other Payment Gateway?</h4>
                     <p class="align-text-bottom m2">Update our list with a Github pull request!</p>
-                    <button type="button" class="btn btn-secondary">View Repo on Github</button>
+                    <a href="https://github.com/AppGharage/GH-Payment-Gateways" type="button" class="btn btn-secondary">
+                        View Repo on Github
+                    </a>
                 </div>
             </div>
         </div>
