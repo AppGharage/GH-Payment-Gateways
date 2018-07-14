@@ -13,8 +13,11 @@
         </div>
 
         <div class="footer-end">
-            <span style="color: #000;">&copy;2018. Designed by 
-                <a href="#">Baffour Adu Boampong</a> &amp; <a href="#">Peter Perez</a>
+            <span style="color: #000;">&copy; <a href="appgharage.com">
+                AppGharage</a> 2018.
+                <br> 
+                Designed by 
+                <a href="https://twitter.com/BaffourBoampong">Baffour Adu Boampong</a> &amp; <a href="https://github.com/peterperez">Peter Perez</a>
             </span>
         </div>
     </div>
@@ -37,13 +40,13 @@ export default {
 
   .footer-end{
     text-align: center;
-    height: 40px;
+    height: 80px;
     left: 0;
     top: 0;
     background: #fff;
     color: #000;
     font-size: 14px;
-    padding-top: 10px;
+    padding-top: 15px;
   }
 
   .footer-end a{
