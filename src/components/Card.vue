@@ -77,7 +77,7 @@ export default {
     }
   },
   mounted() {
-    axios.get('')
+    axios.get('https://github.com/AppGharage/GH-Payment-Gateways/blob/master/payment-gateways.json')
     .then(response => {this.paymentGatewaysList = response.data.results})
   }
 }

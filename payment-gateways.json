@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "name": "Hubtel"
+    },  
+    {
+        "id": "2",
+        "name": "Slydepay",
+        "phone": "0552534233"
+    },
+    {
+        "id": "3",
+        "name": "Mazzuma"
+    },
+    {
+        "id": "4",
+        "name": "Paystack"
+    }
+    
+]
