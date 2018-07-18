@@ -84,10 +84,25 @@
             "Accept International Cards",
             "Accept Bank Payments"
         ],
-        "local_charge" : "2.0 -2.5%",
-        "international_charge" :"2.0 -2.5%",
+        "local_charge" : "2.5%",
+        "international_charge" :"2.5%",
         "website_url": "https://interpayafrica.com/",
         "theme_color": "#2a1fa2"
+    },
+    {
+        "id": "8",
+        "name": "Flutterwave (Rave) ",
+        "logo_url": "https://www.flutterwave.com/images/logo/flutterwaveLogoWhite.svg",
+        "services":[
+            "Accept Mobile Money",
+            "Accept Local Cards",
+            "Accept International Cards",
+            "Accept Bank Payments"
+        ],
+        "local_charge" : "2.5%",
+        "international_charge" :"3.5%",
+        "website_url": "https://rave.flutterwave.com/",
+        "theme_color": "#0f1747"
     }
     
 ]
