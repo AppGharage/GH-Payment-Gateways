@@ -11,7 +11,10 @@
                 </center>
 
                 <div class="card-body">
-                    <h5 class="card-title">Services <hr></h5>
+                    <h5 class="card-title">
+                        Services 
+                        <hr>
+                    </h5>
 
                     <div class="card-text" v-for="service of services" :key="service">
                         <p>{{ service }}</p>
@@ -156,6 +159,10 @@ export default {
 
   .col-md-4{
     margin-bottom: 30px;
+  }
+
+  hr{
+      border-color: rgb(161, 163, 167);
   }
 </style>
 
