@@ -13,11 +13,9 @@
         </div>
 
         <div class="footer-end">
-            <span style="color: #000;">&copy; <a href="appgharage.com">
-                AppGharage</a> 2018.
+            <span style="color: #000;"> 
+                An Open Source project by <a href="http://appgharage.com/"> AppGharage</a> &copy; 2018.
                 <br> 
-                An Open Source project by 
-                <a href="https://twitter.com/BaffourBoampong">Baffour Adu Boampong</a> &amp; <a href="https://github.com/peterperez">Peter Perez</a>
             </span>
         </div>
     </div>
