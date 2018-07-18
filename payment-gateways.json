@@ -10,7 +10,7 @@
             "USSD Payments"
         ],
         "local_charge" : "1.95%",
-        "international_charge" :"0%",
+        "international_charge" :"N/A",
         "website_url": "https://hubtel.com/",
         "theme_color": "#009d95"
     },  
@@ -40,7 +40,7 @@
             "Hosted Checkout"
         ],
         "local_charge" : "3%",
-        "international_charge" :"0%",
+        "international_charge" :"N/A",
         "website_url": "https://developer.teamcyst.com/",
         "theme_color": "#8600B2"
     },
@@ -70,7 +70,7 @@
             "USSD Payments"
         ],
         "local_charge" : "3%",
-        "international_charge" :"0%",
+        "international_charge" :"N/A",
         "website_url": "https://flopay.io/",
         "theme_color": "#5589D8"
     },
