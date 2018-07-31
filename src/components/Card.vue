@@ -56,7 +56,7 @@
                     </div>
                     <div class="col">
                         <span class="float-right">
-                            <a :href="companyUrl" class="btn" :style="{ backgroundColor: themeColor }">Learn More</a>
+                            <a :href="companyUrl"  target="_blank" class="btn" :style="{ backgroundColor: themeColor }">Learn More</a>
                         </span>
                     </div>
                 </div>

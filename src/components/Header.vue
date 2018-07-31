@@ -8,7 +8,12 @@
             <small class="align-text-bottom m4">
                 Looking for payment gateways in Ghana? 
                 <br>Here is a list to consider.
-            </small>
+            </small><p></p>
+            <a href="https://github.com/AppGharage/GH-Payment-Gateways" target="_blank">
+                        <button type="button" class="btn btn-secondary">
+                            View Repo on Github
+                        </button>
+                    </a>
           </div>
       </div>
     </div>

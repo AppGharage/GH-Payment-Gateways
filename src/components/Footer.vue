@@ -5,16 +5,19 @@
                 <div class="col-sm-12 my-auto">
                     <h4 class="align-middle m">Do you know any other Payment Gateway?</h4>
                     <p class="align-text-bottom m2">Update our list with a Github pull request!</p>
-                    <a href="https://github.com/AppGharage/GH-Payment-Gateways" type="button" class="btn btn-secondary">
-                        View Repo on Github
+                    <a href="https://github.com/AppGharage/GH-Payment-Gateways" target="_blank">
+                        <button type="button" class="btn btn-secondary">
+                            View Repo on Github
+                        </button>
                     </a>
                 </div>
             </div>
         </div>
 
         <div class="footer-end">
+            <a href="http://appgharage.com/" target="_blank"><img src="../images/appgharage_logo.png" width="120px;" /></a><p></p>
             <span style="color: #000;"> 
-                An Open Source project by <a href="http://appgharage.com/"> AppGharage</a> &copy; 2018.
+                An Open Source project by <a href="http://appgharage.com/" target="_blank"> AppGharage</a> &copy; 2018.
                 <br> 
             </span>
         </div>
