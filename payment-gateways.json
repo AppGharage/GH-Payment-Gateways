@@ -119,6 +119,21 @@
         "international_charge" :"3.0%",
         "website_url": "https://expresspaygh.com/",
         "theme_color": "#E77638"
+    },
+    {
+        "id": "9",
+        "name": "Epay",
+        "logo_url": "https://epaygh.com/images/logo.png",
+        "services":[
+            "Accept Mobile Money",
+            "Accept Local Cards",
+            "Accept International Cards",
+            "Accept Bank Payments"
+        ],
+        "local_charge" : "1.5%+50p",
+        "international_charge" :"3.0%",
+        "website_url": "https://epaygh.com/",
+        "theme_color": "#1E62C1"
     }
     
 ]
