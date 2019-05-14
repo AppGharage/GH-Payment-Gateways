@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Hubtel",
-        "logo_url": "https://hubtel.com/wp-content/themes/hubtel/html/assets/images/hubtel.png",
+        "logo_url": "//logo.clearbit.com/hubtel.com",
         "services":[
             "Accept Mobile Money",
             "Accept Local Cards",
@@ -13,11 +13,11 @@
         "international_charge" :"N/A",
         "website_url": "https://hubtel.com/",
         "theme_color": "#009d95"
-    },  
+    },  //logo.clearbit.com/
     {
         "id": "2",
         "name": "Slydepay",
-        "logo_url": "http://developer.slydepay.com.gh/assets/images/corporate/slydepay-logo-white.svg",
+        "logo_url": "//logo.clearbit.com/slydepay.com",
         "services":[
             "Accept Mobile Money",
             "Accept Local Cards",
@@ -32,7 +32,7 @@
     {
         "id": "3",
         "name": "Mazzuma",
-        "logo_url": "https://mazzuma.com/img/mazzuma.png",
+        "logo_url": "//logo.clearbit.com/mazzuma.com",
         "services":[
             "Accept Mobile Money",
             "Accept Local Cards",
@@ -47,7 +47,7 @@
     {
         "id": "4",
         "name": "Paystack",
-        "logo_url": "https://paystack.com/assets/website/images/logo.svg",
+        "logo_url": "//logo.clearbit.com/paystack.com",
         "services":[
             "Accept Mobile Money",
             "Accept Local Cards",
@@ -92,7 +92,7 @@
     {
         "id": "7",
         "name": "Flutterwave (Rave) ",
-        "logo_url": "https://www.flutterwave.com/images/logo/flutterwaveLogoWhite.svg",
+        "logo_url": "//logo.clearbit.com/flutterwave.com",
         "services":[
             "Accept Mobile Money",
             "Accept Local Cards",
