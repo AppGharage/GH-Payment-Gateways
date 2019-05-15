@@ -5,6 +5,7 @@
     <div style="margin-top: 50px;"></div>
     
     <div class="container">
+    <!-- -->
       <div class="row">
           <Card v-for="paymentGateway of paymentGatewaysLists" 
             :key="paymentGateway.id" 
@@ -14,7 +15,8 @@
             :intCharge="paymentGateway.international_charge"
             :services="paymentGateway.services"
             :companyUrl="paymentGateway.website_url"
-            :themeColor="paymentGateway.theme_color"/>
+            :themeColor="paymentGateway.theme_color"
+            :logoBackground="paymentGateway.logo_bg"/>
       </div>
     </div>
 
@@ -30,6 +32,16 @@ import Header from './Header'
 import Footer from './Footer'
 import Card from './Card'
 
+//import data from '../../static/payment-gateways.json'
+
+let gateways;
+
+if(process.env.NODE_ENV === "development") {
+  gateways = "../../static/payment-gateways.json"
+} else {
+  gateways = "https://raw.githubusercontent.com/AppGharage/GH-Payment-Gateways/master/payment-gateways.json"
+}
+
 
 export default {
   name: 'app',
@@ -44,8 +56,11 @@ export default {
     }
   },
   mounted() {
-    axios.get('https://raw.githubusercontent.com/AppGharage/GH-Payment-Gateways/master/payment-gateways.json')
-    .then(response => {this.paymentGatewaysLists = response.data})
+    axios.get(gateways)
+    .then(response => {
+      this.paymentGatewaysLists = response.data;
+      console.log("Gateway: ", gateways)
+      })
   }
 }
 </script>

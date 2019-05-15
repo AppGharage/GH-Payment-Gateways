@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Hubtel",
-        "logo_url": "//logo.clearbit.com/hubtel.com",
+        "logo_url": "https://hubtel.com/wp-content/themes/hubtel/html/assets/images/hubtel.png",
         "services":[
             "Accept Mobile Money",
             "Accept Local Cards",
@@ -12,12 +12,13 @@
         "local_charge" : "1.95%",
         "international_charge" :"N/A",
         "website_url": "https://hubtel.com/",
-        "theme_color": "#009d95"
-    },  //logo.clearbit.com/
+        "theme_color": "#009d95",
+        "logo_bg": ""
+    },  
     {
         "id": "2",
         "name": "Slydepay",
-        "logo_url": "//logo.clearbit.com/slydepay.com",
+        "logo_url": "http://developer.slydepay.com.gh/assets/images/corporate/slydepay-logo-white.svg",
         "services":[
             "Accept Mobile Money",
             "Accept Local Cards",
@@ -27,12 +28,13 @@
         "local_charge" : "3%",
         "international_charge" :"3%",
         "website_url": "https://www.slydepay.com.gh/",
-        "theme_color": "#2e3950"
+        "theme_color": "#2e3950",
+        "logo_bg": ""
     },
     {
         "id": "3",
         "name": "Mazzuma",
-        "logo_url": "//logo.clearbit.com/mazzuma.com",
+        "logo_url": "https://mazzuma.com/img/mazzuma.png",
         "services":[
             "Accept Mobile Money",
             "Accept Local Cards",
@@ -42,12 +44,13 @@
         "local_charge" : "3%",
         "international_charge" :"N/A",
         "website_url": "https://developer.teamcyst.com/",
-        "theme_color": "#8600B2"
+        "theme_color": "#8600B2",
+        "logo_bg": ""
     },
     {
         "id": "4",
         "name": "Paystack",
-        "logo_url": "//logo.clearbit.com/paystack.com",
+        "logo_url": "https://paystack.com/assets/website/images/logo.svg",
         "services":[
             "Accept Mobile Money",
             "Accept Local Cards",
@@ -57,7 +60,8 @@
         "local_charge" : "1.9%",
         "international_charge" :"3.9%",
         "website_url": "https://paystack.com/",
-        "theme_color": "#011b33"
+        "theme_color": "#011b33",
+        "logo_bg": ""
     },
     {
         "id": "5",
@@ -72,7 +76,8 @@
         "local_charge" : "3%",
         "international_charge" :"N/A",
         "website_url": "https://flopay.io/",
-        "theme_color": "#5589D8"
+        "theme_color": "#5589D8",
+        "logo_bg": ""
     },
     {
         "id": "6",
@@ -87,12 +92,13 @@
         "local_charge" : "2.5%",
         "international_charge" :"2.5%",
         "website_url": "https://interpayafrica.com/",
-        "theme_color": "#2a1fa2"
+        "theme_color": "#2a1fa2",
+        "logo_bg": ""
     },
     {
         "id": "7",
         "name": "Flutterwave (Rave) ",
-        "logo_url": "//logo.clearbit.com/flutterwave.com",
+        "logo_url": "https://flutterwave.com/wp-content/uploads/2018/07/FLW-logo.svg",
         "services":[
             "Accept Mobile Money",
             "Accept Local Cards",
@@ -102,7 +108,8 @@
         "local_charge" : "2.5%",
         "international_charge" :"3.5%",
         "website_url": "https://rave.flutterwave.com/",
-        "theme_color": "#0f1747"
+        "theme_color": "#EAA844",
+        "logo_bg": "#fff"
 
     },
     {
@@ -118,7 +125,8 @@
         "local_charge" : "3.0%",
         "international_charge" :"3.0%",
         "website_url": "https://expresspaygh.com/",
-        "theme_color": "#E77638"
+        "theme_color": "#E77638",
+        "logo_bg": ""
     },
     {
         "id": "9",
@@ -133,7 +141,8 @@
         "local_charge" : "1.5%+50p",
         "international_charge" :"3.0%",
         "website_url": "https://epaygh.com/",
-        "theme_color": "#1E62C1"
+        "theme_color": "#1E62C1",
+        "logo_bg": ""
     }
     
 ]
