@@ -6,7 +6,13 @@
             <div class="main-bg-area" :style="{ backgroundColor: themeColor }">
                 <center>
                     <div class="card-logo">
-                         <img class="card-img" :src="logoUrl" alt="Logo"> 
+                      <div v-if="logoBackground === ''">
+                         <img class="card-img" :src="logoUrl" alt="Logo" :alt="logoName"> 
+                      </div>
+
+                      <div v-else>
+                         <img class="card-img" :src="logoUrl" :style="{ backgroundColor: logoBackground }" :alt="logoName"> 
+                      </div>
                     </div>
                 </center>
 
@@ -78,8 +84,14 @@ export default {
         'intCharge',
         'services',
         'companyUrl',
-        'themeColor'
-    ]
+        'themeColor',
+        'logoBackground'
+    ],
+    data () {
+      return {
+        logoName: this.companyName + "'s logo",
+      }
+    }
 }
 </script>
 <style scoped>
